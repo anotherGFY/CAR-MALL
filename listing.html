@@ -1,0 +1,748 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aviators - byaviators.com">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/bootstrap.css"  type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css"  type="text/css">
+    <link rel="stylesheet" href="css/realia-blue.css"  type="text/css"> 
+    <link rel="stylesheet" href="css/list.css"  type="text/css"> 
+    <link rel="stylesheet" href="css/side.css"  type="text/css"> 
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/side.js"></script>
+    <script src="js/jquery-2.0.3.min.js" type="text/javascript"></script>   
+
+    <title>商品列表页</title>
+    <meta name=”description” content=”描述内容”> 
+    <meta name=”keyword” content=”关键字1，关键字2，---“> 
+</head>
+<body>
+<div id="wrapper-outer" >
+    <div id="wrapper">
+        <div id="wrapper-inner">
+            <!-- BREADCRUMB -->
+            <div class="breadcrumb-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            <ul class="breadcrumb pull-left">
+                                <li><a href="index.html">首页</a></li>
+                            </ul><!-- /.breadcrumb -->
+
+                            <div class="account pull-right">
+                                <ul class="nav nav-pills">
+                                    <li><a href="login.html">登录</a></li>
+                                    <li><a href="registration.html">注册</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- /.span12 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.breadcrumb-wrapper -->
+
+            <!-- HEADER -->
+            <div id="header-wrapper">
+                <div id="header">
+                    <div id="header-inner">
+                        <div class="container">
+                            <div class="navbar">
+                                <div class="navbar-inner">
+                                    <div class="row">
+                                        <div class="logo-wrapper span4">
+                                            <a href="#nav" class="hidden-desktop" id="btn-nav">Toggle navigation</a>
+
+                                            <div class="logo">
+                                                <a href="index.html" title="Home">
+                                                    <img src="images/logo.png" alt="Home">
+                                                </a>
+                                            </div><!-- /.logo -->
+
+                                            <div class="site-name">
+                                                <a href="/" title="Home" class="brand">祎  讯</a>
+                                            </div><!-- /.site-name -->
+
+                                            <div class="site-slogan">
+                                                <span>Automotive supplier &amp;<br>Auto fast-service</span>
+                                            </div><!-- /.site-slogan -->
+                                        </div><!-- /.logo-wrapper -->
+
+                                        <div class="info">
+                                            <div class="site-email">
+                                                <a href="mailto:info@byaviators.com">mail@business.com</a>
+                                            </div><!-- /.site-email -->
+
+                                            <div class="site-phone">
+                                                <span>400-400-4000</span>
+                                            </div><!-- /.site-phone -->
+                                        </div><!-- /.info -->
+
+                                        <a class="btn btn-primary btn-large list-your-property arrow-right" href="#">我的购物车</a>
+                                    </div><!-- /.row -->
+                                </div><!-- /.navbar-inner -->
+                            </div><!-- /.navbar -->
+                        </div><!-- /.container -->
+                    </div><!-- /#header-inner -->
+                </div><!-- /#header -->
+            </div><!-- /#header-wrapper -->
+
+            <!-- NAVIGATION -->
+            <div id="navigation">
+                <div class="container">
+                    <div class="navigation-wrapper">
+                        <div class="navigation clearfix-normal">
+
+                            <ul class="nav">
+                                <li class="menuparent">
+                                    <span class="menuparent nolink">维修保养</span>
+                                    <ul>
+                                        <li><a href="#">油品</a></li>
+                                        <li><a href="#">火花塞</a></li>
+                                        <li><a href="#">轮胎</a></li>
+                                        <li class="menuparent">
+                                            <span class="menuparent nolink">刹车片</span>
+                                            <ul>
+                                                <li><a href="#">前刹</a></li>
+                                                <li><a href="#">后刹</a></li>
+                                                <li><a href="#">前后刹全套</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">雨刮</a></li>
+                                        <li><a href="#">其他等等</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menuparent">
+                                    <span class="menuparent nolink">车载电器</span>
+                                    <ul>
+                                        <li><a href="#">行车记录</a></li>
+                                        <li><a href="#">导航仪</a></li>
+                                        <li><a href="#">倒车雷达</a></li>
+                                        <li><a href="#" >蓝牙设备</a></li>
+                                        <li><a href="#" >其他等等</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menuparent">
+                                    <span class="menuparent nolink">美容清洗</span>
+                                    <ul>
+                                        <li><a href="#">玻璃水</a></li>
+                                        <li><a href="#">打蜡机</a></li>
+                                        <li><a href="#">车蜡</a></li>
+                                        <li><a href="#">补漆笔</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menuparent">
+                                    <span class="menuparent nolink">安全自驾</span>
+                                    <ul>
+                                        <li><a href="#">胎压检测</a></li>
+                                        <li><a href="#">灭火器</a></li>
+                                        <li><a href="#">安全锤</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">品牌故事</a></li>
+                                <li><a href="#">加入我们</a></li>
+                            </ul><!-- /.nav -->
+
+
+                            <form method="get" class="site-search" action="?">
+                                <div class="input-append">
+                                    <input title="Enter the terms you wish to search for." class="search-query span2 form-text" placeholder="搜索" type="text" name="input" id="test">
+                                    <button type="submit" class="search btn btn-primary btn-lg"  onClick="testContent('test')" id="test1"><i class="icon-search"></i></button>
+
+                                    <!-- 模态框（Modal） -->
+                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                                        &times;
+                                                    </button>
+                                                    <h4 class="modal-title" id="myModalLabel">
+                                                        输入框不得为空
+                                                    </h4>
+                                                </div>
+                                                
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                                                    </button>
+                                                    <a href=""><button type="button" class="btn btn-primary">
+                                                        热销单品
+                                                    </button></a>
+                                                </div>
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal -->
+                                    </div>
+
+                                </div><!-- /.input-append -->
+                            </form><!-- /.site-search -->
+                        </div><!-- /.navigation -->
+                    </div><!-- /.navigation-wrapper -->
+                </div><!-- /.container -->
+            </div><!-- /.navigation -->
+
+            <!-- CONTENT -->
+            <div id="content">
+              <div class="container">
+
+                     <div id="main">
+                                <div class="row">
+                                    <div class="span9">
+
+
+
+                                    <!--面包屑-->
+                                    <div class="selectedSort"><b>当前选择的商品类别：</b><i id="selectedSort"></i></div>
+                                    <!--商品分类-->
+                                    <div class="wareSort clearfix">
+                                        <ul id="sort1"></ul>
+                                        <ul id="sort2" style="display: none;"></ul>
+                                        <ul id="sort3" style="display: none;"></ul>
+                                    </div>
+
+                                    <div class="properties-rows">
+                                    <div class="filter">
+                                    
+                                        <form action="?" method="get" class="form-horizontal form-horizontal-l">
+                                        
+                                            <div class="control-group">
+                                                <a href=""><label class="control-label" for="inputSortBy">
+                                                    价格<span class="item dot-bottom"></span> 
+                                                </label></a>
+                                                <a href=""><label class="control-label" for="inputSortBy">
+                                                    销量<span class="item dot-top"></span> 
+                                                </label></a>
+                                                <a href=""><label class="control-label" for="inputSortBy">
+                                                    人气<span class="item dot-top"></span>
+                                                </label></a>
+                                            </div><!-- /.control-group -->
+
+                                            
+                                            
+                                        </form>
+                                        
+                                        <form action="?" method="get" class="form-horizontal form-horizontal-r">
+                                            
+                                            <div class="control-group">
+                                                <label class="control-label" for="inputSortBy">
+                                                    布局
+                                                    <span class="form-required" title="This field is required.">：</span>
+                                                </label>
+                                                <div class="controls clist">
+                                                    <a href="javascript:void(0);" class="cl on" id="layoutH">
+                                                        <span class="h"></span>
+                                                    </a>&nbsp;
+                                                    <a href="javascript:void(0);" class="cl" id="layoutV">
+                                                        <span class="h"></span>
+                                                        <span class="v"></span>
+                                                    </a>
+                                                    </div>
+                                            </div><!-- /.control-group -->
+
+                                            
+                                        </form>
+                                        
+                                    </div><!-- /.filter -->
+                                    </div><!-- /.properties-rows -->               
+
+                                    <div class="properties-rows">
+                                        <div class="row">
+                                        
+                                        <ul id="property" class="grid">
+
+                                            <li>
+                                            <div class="property">
+                                                <div class="row">
+                                                    <div class="image">
+                                                        <div class="content img-w-h">
+                                                            <a href="detail.html"></a>
+                                                            <img src="images/tmp/property-small-4.png" alt="">
+                                                        </div><!-- /.content -->
+                                                    </div><!-- /.image -->
+
+                                                    <div class="body">
+                                                        <div class="title-price">
+                                                            <div class="title">
+                                                                <h2><a href="detail.html">商品名称</a></h2>
+                                                            </div><!-- /.title -->
+
+                                                            <div class="price"><img src="images/vip1s.png" alt=""></div><!-- /.price -->
+                                                        </div><!-- /.title -->
+                                                        <div class="sale">销量：2234</div>
+
+                                                        <div class="location">品牌或小标如特惠</div><!-- /.location -->
+                                                        <p>
+                                                        <span title="品牌:AAAAA" class="OPI">品牌:AAAAA</span>
+                                                        <span title="容量:4L" class="OPI">容量:4L</span>
+                                                        <span title="油品类别:汽机油" class="OPI">油品类别:汽机油</span>
+                                                        <span title="粘稠度:5W-40" class="OPI">粘稠度:5W-40</span>
+                                                        <span title="级别:SN级" class="OPI">级别:SN级</span>
+                                                        <span title="购买单位:箱" class="OPI">购买单位:箱</span>
+                                                        <span title="商品编码：MF010104" class="OPI OPI-B">商品编码：MF010104</span>
+                                                    </div><!-- /.body -->
+                                                </div><!-- /.row -->
+                                            </div><!-- /.property -->
+
+                                            </li>
+
+                                            <li>
+
+                                            <div class="property">
+                                                <div class="row">
+                                                    <div class="image">
+                                                        <div class="content img-w-h">
+                                                            <a href="detail.html"></a>
+                                                            <img src="images/tmp/property-small-4.png" alt="">
+                                                        </div><!-- /.content -->
+                                                    </div><!-- /.image -->
+
+                                                    <div class="body">
+                                                        <div class="title-price">
+                                                            <div class="title">
+                                                                <h2><a href="detail.html">商品名称</a></h2>
+                                                            </div><!-- /.title -->
+
+                                                            <div class="price"><img src="images/vip1s.png" alt=""></div><!-- /.price -->
+                                                        </div><!-- /.title -->
+                                                        <div class="sale">销量：2234</div>
+
+                                                        <div class="location">品牌或小标如特惠</div><!-- /.location -->
+                                                        <p>
+                                                        <span title="品牌:AAAAA" class="OPI">品牌:AAAAA</span>
+                                                        <span title="容量:4L" class="OPI">容量:4L</span>
+                                                        <span title="油品类别:汽机油" class="OPI">油品类别:汽机油</span>
+                                                        <span title="粘稠度:5W-40" class="OPI">粘稠度:5W-40</span>
+                                                        <span title="级别:SN级" class="OPI">级别:SN级</span>
+                                                        <span title="购买单位:箱" class="OPI">购买单位:箱</span>
+                                                        <span title="商品编码：MF010104" class="OPI OPI-B">商品编码：MF010104</span>
+                                                        </p> 
+                                                         
+                                                    </div><!-- /.body -->
+                                                </div><!-- /.row -->
+                                            </div><!-- /.property -->
+
+                                            </li>
+
+                                            <li>
+
+                                            <div class="property">
+                                                <div class="row">
+                                                    <div class="image">
+                                                        <div class="content img-w-h">
+                                                            <a href="detail.html"></a>
+                                                            <img src="images/tmp/property-small-4.png" alt="">
+                                                        </div><!-- /.content -->
+                                                    </div><!-- /.image -->
+
+                                                    <div class="body">
+                                                        <div class="title-price">
+                                                            <div class="title">
+                                                                <h2><a href="detail.html">商品名称</a></h2>
+                                                            </div><!-- /.title -->
+
+                                                            <div class="price"><img src="images/vip1s.png" alt=""></div><!-- /.price -->
+                                                        </div><!-- /.title -->
+                                                        <div class="sale">销量：2234</div>
+
+                                                        <div class="location">品牌或小标如特惠</div><!-- /.location -->
+                                                        <p>
+                                                        <span title="品牌:AAAAA" class="OPI">品牌:AAAAA</span>
+                                                        <span title="容量:4L" class="OPI">容量:4L</span>
+                                                        <span title="油品类别:汽机油" class="OPI">油品类别:汽机油</span>
+                                                        <span title="粘稠度:5W-40" class="OPI">粘稠度:5W-40</span>
+                                                        <span title="级别:SN级" class="OPI">级别:SN级</span>
+                                                        <span title="购买单位:箱" class="OPI">购买单位:箱</span>
+                                                        <span title="商品编码：MF010104" class="OPI OPI-B">商品编码：MF010104</span>
+                                                        </p> 
+                                                         
+                                                    </div><!-- /.body -->
+                                                </div><!-- /.row -->
+                                            </div><!-- /.property -->
+
+                                            </li>
+
+                                            <li>
+                                            <div class="property">
+                                                <div class="row">
+                                                    <div class="image">
+                                                        <div class="content img-w-h">
+                                                            <a href="detail.html"></a>
+                                                            <img src="images/tmp/property-small-4.png" alt="">
+                                                        </div><!-- /.content -->
+                                                    </div><!-- /.image -->
+
+                                                    <div class="body">
+                                                        <div class="title-price">
+                                                            <div class="title">
+                                                                <h2><a href="detail.html">商品名称</a></h2>
+                                                            </div><!-- /.title -->
+
+                                                            <div class="price"><img src="images/vips.png" alt=""></div><!-- /.price -->
+                                                        </div><!-- /.title -->
+                                                        <div class="sale">销量：2234</div>
+
+                                                        <div class="location">品牌或小标如特惠</div><!-- /.location -->
+                                                        <p>
+                                                        <span title="品牌:AAAAA" class="OPI">品牌:AAAAA</span>
+                                                        <span title="容量:4L" class="OPI">容量:4L</span>
+                                                        <span title="油品类别:汽机油" class="OPI">油品类别:汽机油</span>
+                                                        <span title="粘稠度:5W-40" class="OPI">粘稠度:5W-40</span>
+                                                        <span title="级别:SN级" class="OPI">级别:SN级</span>
+                                                        <span title="购买单位:箱" class="OPI">购买单位:箱</span>
+                                                        <span title="商品编码：MF010104" class="OPI OPI-B">商品编码：MF010104</span>
+                                                        </p> 
+                                                         
+                                                    </div><!-- /.body -->
+                                                </div><!-- /.row -->
+                                            </div><!-- /.property -->
+
+                                            </li>
+
+                                            <li>
+
+                                            <div class="property">
+                                                <div class="row">
+                                                    <div class="image">
+                                                        <div class="content img-w-h">
+                                                            <a href="detail.html"></a>
+                                                            <img src="images/tmp/property-small-4.png" alt="">
+                                                        </div><!-- /.content -->
+                                                    </div><!-- /.image -->
+
+                                                    <div class="body">
+                                                        <div class="title-price">
+                                                            <div class="title">
+                                                                <h2><a href="detail.html">商品名称</a></h2>
+                                                            </div><!-- /.title -->
+
+                                                            <div class="price"><img src="images/vips.png" alt=""></div><!-- /.price -->
+                                                        </div><!-- /.title -->
+                                                        <div class="sale">销量：2234</div>
+
+                                                        <div class="location">品牌或小标如特惠</div><!-- /.location -->
+                                                        <p>
+                                                        <span title="品牌:AAAAA" class="OPI">品牌:AAAAA</span>
+                                                        <span title="容量:4L" class="OPI">容量:4L</span>
+                                                        <span title="油品类别:汽机油" class="OPI">油品类别:汽机油</span>
+                                                        <span title="粘稠度:5W-40" class="OPI">粘稠度:5W-40</span>
+                                                        <span title="级别:SN级" class="OPI">级别:SN级</span>
+                                                        <span title="购买单位:箱" class="OPI">购买单位:箱</span>
+                                                        <span title="商品编码：MF010104" class="OPI OPI-B">商品编码：MF010104</span>
+                                                        </p> 
+                                                         
+                                                    </div><!-- /.body -->
+                                                </div><!-- /.row -->
+                                            </div><!-- /.property -->
+
+                                            </li>
+
+                                            <li>
+
+                                            <div class="property">
+                                                <div class="row">
+                                                    <div class="image">
+                                                        <div class="content img-w-h">
+                                                            <a href="detail.html"></a>
+                                                            <img src="images/tmp/property-small-4.png" alt="">
+                                                        </div><!-- /.content -->
+                                                    </div><!-- /.image -->
+
+                                                    <div class="body">
+                                                        <div class="title-price">
+                                                            <div class="title">
+                                                                <h2><a href="detail.html">商品名称</a></h2>
+                                                            </div><!-- /.title -->
+
+                                                            <div class="price"><img src="images/vips.png" alt=""></div><!-- /.price -->
+                                                        </div><!-- /.title -->
+                                                        <div class="sale">销量：2234</div>
+
+                                                        <div class="location">品牌或小标如特惠</div><!-- /.location -->
+                                                        <p>
+                                                        <span title="品牌:AAAAA" class="OPI">品牌:AAAAA</span>
+                                                        <span title="容量:4L" class="OPI">容量:4L</span>
+                                                        <span title="油品类别:汽机油" class="OPI">油品类别:汽机油</span>
+                                                        <span title="粘稠度:5W-40" class="OPI">粘稠度:5W-40</span>
+                                                        <span title="级别:SN级" class="OPI">级别:SN级</span>
+                                                        <span title="购买单位:箱" class="OPI">购买单位:箱</span>
+                                                        <span title="商品编码：MF010104" class="OPI OPI-B">商品编码：MF010104</span>
+                                                        </p> 
+                                                         
+                                                    </div><!-- /.body -->
+                                                </div><!-- /.row -->
+                                            </div><!-- /.property -->
+
+                                            </li>
+
+
+
+
+
+                                        </ul>
+                                              
+
+
+                                        </div><!-- /.row -->
+                                    </div><!-- /.properties-rows -->
+             
+                                      <div class="pagination pagination-centered">
+                                           </div><!-- /.pagination -->            
+                                </div>
+                                    <div class="sidebar span3">
+
+                    <div class="widget properties last">
+                <div class="title">
+                    <h2>人气单品</h2>
+                </div><!-- /.title -->
+            
+                <div class="content">
+                            <div class="property">
+                                <div class="image">
+                                    <a href="#"></a>
+                                    <img src="images/tmp/property-small-4.png" alt="">
+                                </div><!-- /.image -->
+
+                                <div class="wrapper">
+                                    <div class="title">
+                                        <h3>
+                                            <a href="#">商品名称</a>
+                                        </h3>
+                                    </div><!-- /.title -->
+                                    <div class="location">品牌或小标如特惠</div><!-- /.location -->
+                                     
+                                </div><!-- /.wrapper -->
+                            </div><!-- /.property -->
+
+                            <div class="property">
+                                <div class="image">
+                                    <a href="#"></a>
+                                    <img src="images/tmp/property-small-5.png" alt="">
+                                </div><!-- /.image -->
+
+                                <div class="wrapper">
+                                    <div class="title">
+                                        <h3>
+                                            <a href="#">商品名称</a>
+                                        </h3>
+                                    </div><!-- /.title -->
+                                    <div class="location">品牌或小标如特惠</div><!-- /.location -->
+                                     
+                                </div><!-- /.wrapper -->
+                            </div><!-- /.property -->
+
+                            <div class="property">
+                                <div class="image">
+                                    <a href="#"></a>
+                                    <img src="images/tmp/property-small-6.png" alt="">
+                                </div><!-- /.image -->
+
+                                <div class="wrapper">
+                                    <div class="title">
+                                        <h3>
+                                            <a href="#">商品名称</a>
+                                        </h3>
+                                    </div><!-- /.title -->
+                                    <div class="location">品牌或小标如特惠</div><!-- /.location -->
+                                     
+                                </div><!-- /.wrapper -->
+                            </div><!-- /.property -->
+
+                            <div class="property">
+                                <div class="image">
+                                    <a href="#"></a>
+                                    <img src="images/tmp/property-small-2.png" alt="">
+                                </div><!-- /.image -->
+
+                                <div class="wrapper">
+                                    <div class="title">
+                                        <h3>
+                                            <a href="#">商品名称</a>
+                                        </h3>
+                                    </div><!-- /.title -->
+                                    <div class="location">品牌或小标如特惠</div><!-- /.location -->
+                                     
+                                </div><!-- /.wrapper -->
+                            </div><!-- /.property -->
+                </div><!-- /.content -->
+            </div><!-- /.properties -->
+
+                            <div class="ad widget">
+                            <h2>热销品牌</h2>
+                            <div class="content">
+                                <a href="#"><img src="images/banner/1.gif" alt="Banner"></a>
+                                <a href="#"><img src="images/banner/2.gif" alt="Banner"></a>
+                                <a href="#"><img src="images/banner/3.gif" alt="Banner"></a>
+                                <a href="#"><img src="images/banner/4.gif" alt="Banner"></a>
+                            </div><!-- /.content -->
+                        </div><!-- /.ad -->
+                                    </div>
+                                </div>
+                            </div>
+
+              </div>
+
+            </div><!-- /#content -->
+</div><!-- /#wrapper-inner -->
+
+<div id="footer-wrapper">
+    <div id="footer-top">
+        <div id="footer-top-inner" class="container">
+            <div class="row">
+            
+                <div class="widget properties span3">
+                    <div class="title">
+                        <h2>最近浏览商品</h2>
+                    </div><!-- /.title -->
+
+                    <div class="content">
+                        <div class="property">
+                            <div class="image">
+                                <a href="detail.html"></a>
+                                <img src="images/tmp/property-small-1.png" alt="">
+                            </div><!-- /.image -->
+                            <div class="wrapper">
+                                <div class="title">
+                                    <h3>
+                                        <a href="detail.html">XX合成机油</a>
+                                    </h3>
+                                </div><!-- /.title -->
+                                <div class="location">某某 品牌</div><!-- /.location -->
+                                <div class="price">￥ 666 元</div><!-- /.price -->
+                            </div><!-- /.wrapper -->
+                        </div><!-- /.property -->
+
+                        <div class="property">
+                            <div class="image">
+                                <a href="detail.html"></a>
+                                <img src="images/tmp/property-small-2.png" alt="">
+                            </div><!-- /.image -->
+                            <div class="wrapper">
+                                <div class="title">
+                                    <h3>
+                                        <a href="detail.html">XX合成机油</a>
+                                    </h3>
+                                </div><!-- /.title -->
+                                <div class="location">某某 品牌</div><!-- /.location -->
+                                <div class="price">￥ 666 元</div><!-- /.price -->
+                            </div><!-- /.wrapper -->
+                        </div><!-- /.property -->
+
+                      
+                    </div><!-- /.content -->
+                </div><!-- /.properties-small -->
+
+                <div class="widget span3">
+                    <div class="title">
+                        <h2 class="block-title">关于我们</h2>
+                    </div><!-- /.title -->
+
+                    <div class="content">
+                        <ul class="menu nav">
+                            <li class="first leaf"><a href="#">关于我们</a></li>
+                            <li class="leaf"><a href="#">品牌故事</a></li>
+                            <li class="leaf"><a href="#">常见问题</a></li>
+                            <li class="last leaf"><a href="#">加入我们</a></li>
+                        </ul>
+                    </div><!-- /.content -->
+                </div><!-- /.widget -->
+
+                 <div class="widget span3">
+                    <div class="title">
+                        <h2 class="block-title">产品速达</h2>
+                    </div><!-- /.title -->
+
+                    <div class="content">
+                        <ul class="menu nav">
+                            <li class="first leaf"><a href="#">维护保养</a></li>
+                            <li class="leaf"><a href="#">车载电器</a></li>
+                            <li class="leaf"><a href="#">美容清洗</a></li>
+                            <li class="last leaf"><a href="#">安全自驾</a></li>
+                        </ul>
+                    </div><!-- /.content -->
+                </div><!-- /.widget -->
+                
+                
+                <div class="widget span3">
+                    <div class="title">
+                        <h2>联系我们</h2>
+                    </div><!-- /.title -->
+
+                    <div class="content">
+                        <table class="contact">
+                            <tbody>
+                            <tr>
+                                <th class="address">公司地址:</th>
+                                <td>X X 省 X X 区<br>XX街道 XX大楼<br></td>
+                            </tr>
+                            <tr>
+                                <th class="phone">联系电话:</th>
+                                <td>+400 400 4000</td>
+                            </tr>
+                            <tr>
+                                <th class="phone">公司传真:</th>
+                                <td>+400 400 4000</td>
+                            </tr>
+                            <tr>
+                                <th class="email">电子邮箱:</th>
+                                <td><a href="mailto:mail@business.com">mail@business.com</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div><!-- /.content -->
+                </div><!-- /.widget -->
+
+            </div><!-- /.row -->
+        </div><!-- /#footer-top-inner -->
+    </div><!-- /#footer-top -->
+
+    <div id="footer" class="footer container">
+        <div id="footer-inner">
+            <div class="row">
+            
+                <div class="span6 copyright">
+                    <p>Copyright © 2016 XXX公司版权所有<br/>某ICP备88888888号 All rights reserved.</p>
+                  
+                </div><!-- /.copyright -->
+                
+            </div><!-- /.row -->
+        </div><!-- /#footer-inner -->
+    </div><!-- /#footer -->
+</div><!-- /#footer-wrapper -->
+</div><!-- /#wrapper -->
+
+
+</div><!-- /#wrapper-outer -->
+
+<!--  SIDE  -->
+<div class="side">
+    <ul>
+        <li><a href="#"><div class="sidebox"><img src="images/side/side_icon01.png">购物车</div></a></li>
+        <li><a href="#"><div class="sidebox"><img src="images/side/side_icon02.png">我的订单</div></a></li>
+        <li><a href="javascript:void(0);" ><div class="sidebox"><img src="images/side/side_icon03.png">浏览记录</div></a></li>
+        <li><a href="javascript:void(0);" ><div class="sidebox"><img src="images/side/side_icon04.png">联系我们</div></a></li>
+        <li style="border:none;"><a href="javascript:goTop();" class="sidetop"><img src="images/side/side_icon05.png"></a></li>
+    </ul>
+</div>
+
+
+<!--  JS  -->
+<script type="text/javascript" src="js/jquery.list-shaixuan.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript" src="js/realia.js"></script>
+<script type="text/javascript" src="js/jquery.page.js"></script>
+<script type="text/javascript" src="js/list.js"></script>
+<script type="text/javascript" src="js/search.js"></script>
+<script>
+    $(".pagination").createPage({
+        pageCount:6,
+        current:1,
+        backFn:function(p){
+            console.log(p);
+        }
+    });
+</script>
+<!--  JS end -->
+
+</body>
+</html>
